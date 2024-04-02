@@ -1,0 +1,130 @@
+﻿@{
+    ViewData["Title"] = "MyWork";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Cards</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: floralwhite;
+        }
+
+        .container {
+            font-family: 'Trebuchet MS';
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .product-card {
+            width: calc(25% - 40px);
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            display: inline-block;
+        }
+
+            .product-card img {
+                width: 100%;
+                height: auto;
+            }
+
+        .product-info {
+            padding: 20px;
+        }
+
+        .product-title {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .product-price {
+            font-size: 1.1rem;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        .product-description {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="product-card">
+        <img src="~/images/Craft1.jpg" alt="Product Image">
+        <div class="product-info">
+            <h2 class="product-title">Crafted Vase</h2>
+            <p class="product-price">R20 000</p>
+            <p class="product-description"> Artisanal elegance in every curve and detail. Crafted with passion and precision, each piece is a unique expression of creativity and skill. From sleek modern designs to rustic charm, these treasures add personality and sophistication to any space.</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="product-card">
+        <img src="~/images/woodensculp.jpeg" alt="Product Image">
+        <div class="product-info">
+            <h2 class="product-title">Hand-Made Wooden Sculpture</h2>
+            <p class="product-price">R15 000</p>
+            <p class="product-description">
+                Indulge in nature's beauty with our hand-carved wooden sculptures. Crafted from sustainably sourced wood by skilled artisans, each piece celebrates craftsmanship and creativity. Whether depicting animals, symbols, or abstract designs, they bring natural elegance to any space.
+            </p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+
+    <div class="product-card">
+        <img src="~/images/handmadebasket.jpg" alt="Product Image">
+        <div class="product-info">
+            <h2 class="product-title">Crafted Woven Basket</h2>
+            <p class="product-price">R8 000</p>
+            <p class="product-description">
+                Elevate your home decor with our exquisite handwoven basket, crafted by skilled artisans from sustainable materials like rattan or seagrass. Perfect for storing blankets or serving bread, it adds warmth and texture to any space. With sturdy construction and timeless design, this basket brings traditional craftsmanship charm into your home.
+            </p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="product-card">
+        <img src="~/images/mugset.jpeg" alt="Product Image">
+        <div class="product-info">
+            <h2 class="product-title">Handmade Mug Set</h2>
+            <p class="product-price">R2 000</p>
+            <p class="product-description">
+                Start your day with our charming hand-painted ceramic mugs. Crafted by skilled potters, each mug features intricate designs inspired by nature or cultural motifs. Made from high-quality clay and glazes, they're durable and microwave-safe. Perfect for coffee or tea, they add artisanal flair to your beverage experience and make a delightful addition to any kitchen or gift for someone special.
+            </p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="product-card">
+        <img src="~/images/plate.jpeg" alt="Product Image">
+        <div class="product-info">
+            <h2 class="product-title">Crafted Plate</h2>
+            <p class="product-price">R4 000</p>
+            <p class="product-description">
+                Add style and sophistication to your table with our hand-crafted pottery serving platter. Made by skilled potters using traditional techniques, each piece is unique, showcasing the beauty of handmade pottery. Perfect for serving appetizers, cheeses, or desserts, it adds rustic charm to any setting. Durable and timeless, it's a versatile addition to your entertaining essentials.
+            </p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="product-card">
+        <img src="~/images/quilt.jpeg" alt="Product Image">
+        <div class="product-info">
+            <h2 class="product-title">Crafted Quilt</h2>
+            <p class="product-price">R3 000</p>
+            <p class="product-description">
+                Indulge in warmth and comfort with our heirloom-quality hand-sewn quilt. Crafted by skilled quilters, each piece blends traditional techniques with modern design. Made from high-quality cotton, it's soft, durable, and perfect for generations to come. Whether as a bedspread, picnic blanket, or cozy throw, this quilt adds handmade charm to any space.
+            </p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+</body>
+</html>

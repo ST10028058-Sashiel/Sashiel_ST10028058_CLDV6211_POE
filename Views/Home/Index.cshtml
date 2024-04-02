@@ -1,0 +1,144 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to KhumaloCraft Emporium</title>
+    <style>
+        body {
+            font-family: Arial;
+         
+            background-color: floralwhite;
+        }
+
+        .container {
+            font-family:'Trebuchet MS';
+         
+            margin: 0 auto;
+          
+            text-align: left;
+       
+           
+        }
+
+        h1 {
+         
+        }
+
+        h3 {
+            
+        }
+
+        p {
+           
+            line-height: 1.6;
+        }
+
+        .product-card {
+            width: calc(25% - 40px);
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            display: inline-block;
+        }
+
+            .product-card img {
+                width: 100%;
+                height: auto;
+            }
+
+        .product-info {
+            padding: 20px;
+        }
+
+        .product-title {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .product-price {
+            font-size: 1.1rem;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        .product-description {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to KhumaloCraft Emporium</h1>
+        <p>
+            Welcome to KhumaloCraft Emporium, where craftsmanship meets global accessibility. We are dedicated to showcasing
+            handcrafted products from artisans worldwide, connecting their exceptional skills with discerning individuals
+            who appreciate the beauty of unique, handmade items.
+        </p>
+        <p>
+            Our founder, James Khumalo, envisioned a platform that not only celebrates the artistry and creativity of
+            artisans but also provides a seamless shopping experience for customers around the world.
+        </p>
+        <h3>Our Mission</h3>
+        <p>
+            At KhumaloCraft Emporium, our mission is to empower artisans by providing them with a global platform to
+            showcase their craftwork. We aim to promote cultural diversity, support sustainable practices, and foster
+            meaningful connections between artisans and customers.
+        </p>
+        <h3>What We Offer</h3>
+        <p>Our platform features a diverse range of handcrafted products, including but not limited to:</p>
+
+        <div class="product-card">
+            <img src="~/images/Craft1.jpg" alt="Product Image">
+            <div class="product-info">
+                <h2 class="product-title">Crafted Vase</h2>
+                <p class="product-price">R20 000</p>
+                <p class="product-description"> Artisanal elegance in every curve and detail. Crafted with passion and precision, each piece is a unique expression of creativity and skill. From sleek modern designs to rustic charm, these treasures add personality and sophistication to any space.</p>
+                <button><a asp-area="Sashiel_Part1" asp-controller="Home" asp-action="MyWork">View My Work</a></button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="~/images/woodensculp.jpeg" alt="Product Image">
+            <div class="product-info">
+                <h2 class="product-title">Hand-Made Wooden Sculpture</h2>
+                <p class="product-price">R15 000</p>
+                <p class="product-description">
+               Indulge in nature's beauty with our hand-carved wooden sculptures. Crafted from sustainably sourced wood by skilled artisans, each piece celebrates craftsmanship and creativity. Whether depicting animals, symbols, or abstract designs, they bring natural elegance to any space.
+                </p>
+                <button><a asp-area="Sashiel_Part1" asp-controller="Home" asp-action="MyWork">View My Work</a></button>
+            </div>
+        </div>
+
+
+        <div class="product-card">
+            <img src="~/images/handmadebasket.jpg" alt="Product Image">
+            <div class="product-info">
+                <h2 class="product-title">Crafted Woven Basket</h2>
+                <p class="product-price">R8 000</p>
+                <p class="product-description">
+                    Elevate your home decor with our exquisite handwoven basket, crafted by skilled artisans from sustainable materials like rattan or seagrass. Perfect for storing blankets or serving bread, it adds warmth and texture to any space. With sturdy construction and timeless design, this basket brings traditional craftsmanship charm into your home.
+                </p>
+                <button><a asp-area="Sashiel_Part1" asp-controller="Home" asp-action="MyWork">View My Work</a></button>
+            </div>
+        </div>
+        <p>Each item on our platform is carefully curated to ensure the highest quality and authenticity.</p>
+        <h3>Why Choose Us?</h3>
+        <p>
+            When you shop at KhumaloCraft Emporium, you're not just purchasing a product – you're investing in a piece of
+            artistry and supporting talented artisans around the world. With our user-friendly interface, secure payment
+            system, and global shipping options, we strive to make your shopping experience enjoyable and hassle-free.
+        </p>
+        <p>Thank you for joining us on this journey of creativity, craftsmanship, and community.</p>
+    </div>
+</body>
+
+</html>
+
